@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link type="text/html" rel="stylesheet" href="/style.css">
+    <title>FEC Demo</title>
+  </head>
+  <body>
+    <div id="NearMe"></div>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="http://localhost:3005/app.js"></script>
+    <!-- see: https://reactjs.org/docs/react-without-jsx.html -->
+    <script>
+      ReactDOM.render(
+        React.createElement(NearMe),
+        document.getElementById('NearMe')
+      );
+    </script>
+  </body>
+</html>

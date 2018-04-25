@@ -1,14 +1,28 @@
-#Info {
-  display: block;
+body {
+  display: flex;
+  flex-flow: column; 
+  align-items: center;
 }
-
-#CountDown {
-  margin-left: 5px;
-  display: inline-block;
+.mainContainer {
+  display: flex;
+  flex-flow: column;
+  width: 70vw;
+  min-width: 1200px;
+  max-width: 1600px;
 }
-
-#Related {
-  margin: 10%;
-  display: block;
+.headerInfo {
+  display: flex;
 }
-
+.body {
+  display: flex;
+}
+.headerInfo {
+  display: flex;
+  flex-flow: row; 
+  justify-content: center;
+  align-items: center;
+}
+.businessLocation {
+  display: flex;
+  justify-content: center;
+}

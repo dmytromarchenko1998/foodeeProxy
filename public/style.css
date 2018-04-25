@@ -26,3 +26,18 @@ body {
   display: flex;
   justify-content: center;
 }
+#NearMe {
+  margin-left: 27px;
+}
+.pageHeader {
+  background-color: rgb(205,31,32);
+  width: 100vw;
+  height: 91px;
+}
+
+#yelpScreenShot {
+  height: 91px;
+  width: 100vw;
+  max-width: 1500px;
+  object-fit: cover;
+}
